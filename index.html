@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="piano">
+            <div class="piano-body">
+                <div class="piano-speaker"></div>
+                <div class="piano-interface">
+                    <div class="piano-controls">
+                        <h4 class="piano-heading"><strong>Piano</strong></h4>
+                        <input type="radio" id="first" class="piano-control-option" name="control" value="letternote" checked><label for="first">Letter Notes</label>
+                        <input type="radio" id="second" class="piano-control-option" name="control" value="keyboard"><label for="second">Keyboard </label> 
+                        <input type="radio" id="third" class="piano-control-option" name="control" value="none"><label for="third">None </label> 
+                    </div>
+                    <div class="piano-autoplay">
+                        <h4 class="piano-heading"><strong>Autoplay</strong></h4>
+                        <select name="" id="" class="piano-song-list">
+                            <option value="1">Jingle Bellz</option>
+                            <option value="2">Happy Birthday</option>
+                        </select>
+                        <label for="tempo">Tempo</label>
+                        <select name="" class="temper" id="tempo">
+                            <option value="1">Slow</option>
+                            <option value="2" selected>Normal</option>
+                            <option value="3">Fast</option>
+                        </select>
+                        <button class="piano-play-btn">Play</button>
+                    </div>
+            </div>
+                <div class="piano-speaker"></div>
+            </div>
+            <div class="piano-keyboard">
+                <!-- <button class="piano-key piano-key-white">C1</button>
+                <div class="empty-space">
+                <button class="piano-key piano-key-black">C#1</button>
+                </div>
+                <button class="piano-key piano-key-white">D1</button>
+                <div class="empty-space">
+                <button class="piano-key piano-key-black">D#1</button>
+                </div>
+                <button class="piano-key piano-key-white">E</button>
+                <button class="piano-key piano-key-white">F</button> -->
+            </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
